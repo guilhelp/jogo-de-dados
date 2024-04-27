@@ -1,0 +1,92 @@
+*, html, body, h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    color: #171717;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: #059669;
+  color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 204px;
+  height: 40px;
+}
+
+button:disabled {
+  background-color: #059669;
+  color: #f5f5f5;
+  opacity: 0.5;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  gap: 40px;
+}
+
+.game {
+  gap: 46px;
+}
+
+.results {
+  gap: 46px;
+}
+
+
+#dicesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+}
+
+#dicesContainer img {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+}
+
+#resultContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+
+
